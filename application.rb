@@ -1,5 +1,6 @@
 require "sinatra"
 require "slim"
+require "sass"
 
 module STLPreviewer
   class Application < Sinatra::Base
