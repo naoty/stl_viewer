@@ -1,2 +1,2 @@
 require "./application"
-run STLPreviewer::Application.new
+run STLViewer::Application.new
