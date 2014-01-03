@@ -3,16 +3,16 @@ html {
 }
 
 body {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
 }
 
 canvas {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border: 1px solid #AAA;
 }
 
-h2 {
+#caption {
     text-align: center;
 }
