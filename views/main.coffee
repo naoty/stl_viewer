@@ -58,12 +58,13 @@ $ ->
 
   initializeEvents = ->
     $(document).keyup (event) ->
+      console.log(event.which)
       # Press '-' to zoom out
-      if [61].indexOf(event.which) != -1
+      if [61, 187].indexOf(event.which) != -1
         root.camera.position.y *= 0.9
         root.camera.position.z *= 0.9
       # Press '+' to zoom in
-      if [173].indexOf(event.which) != -1
+      if [173, 189].indexOf(event.which) != -1
         root.camera.position.y *= 1.1
         root.camera.position.z *= 1.1
 
